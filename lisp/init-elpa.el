@@ -30,9 +30,6 @@
     typescript-mode ; the stable version lacks important feature (highlight function names)
     dumb-jump
     websocket ; to talk to the browser
-    evil-exchange
-    evil-find-char-pinyin
-    evil-lion
     ;; {{ dependencies of stable realgud are too old
     load-relative
     loc-changes
@@ -121,7 +118,7 @@
 (setq package-archives
       '(("localelpa" . "~/.emacs.d/localelpa/")
         ;; uncomment below line if you need use GNU ELPA
-        ;; ("gnu" . "https://elpa.gnu.org/packages/")
+        ("gnu" . "https://elpa.gnu.org/packages/")
         ("melpa" . "https://melpa.org/packages/")
         ("melpa-stable" . "https://stable.melpa.org/packages/")
 
@@ -320,18 +317,18 @@ PACKAGE is a symbol, VERSION is a vector as produced by `version-to-list', and
 (require-package 'websocket) ; for debug debugging of browsers
 (require-package 'jss)
 (require-package 'undo-tree)
-(require-package 'evil)
-(require-package 'evil-escape)
-(require-package 'evil-exchange)
-(require-package 'evil-find-char-pinyin)
-(require-package 'evil-mark-replace)
-(require-package 'evil-matchit)
-(require-package 'evil-nerd-commenter)
-(require-package 'evil-surround)
-(require-package 'evil-visualstar)
-(require-package 'evil-lion)
-(require-package 'evil-args)
-(require-package 'evil-textobj-syntax)
+;; (require-package 'evil)
+;; (require-package 'evil-escape)
+;; (require-package 'evil-exchange)
+;; (require-package 'evil-find-char-pinyin)
+;; (require-package 'evil-mark-replace)
+;; (require-package 'evil-matchit)
+;; (require-package 'evil-nerd-commenter)
+;; (require-package 'evil-surround)
+;; (require-package 'evil-visualstar)
+;; (require-package 'evil-lion)
+;; (require-package 'evil-args)
+;; (require-package 'evil-textobj-syntax)
 (require-package 'slime)
 (require-package 'counsel-css)
 (require-package 'auto-package-update)

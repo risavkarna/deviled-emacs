@@ -120,13 +120,13 @@
   (require-init 'init-clipboard)
   (require-init 'init-ctags t)
   (require-init 'init-bbdb t)
-  (require-init 'init-gnus t)
+;;  (require-init 'init-gnus t)
   (require-init 'init-lua-mode t)
   (require-init 'init-workgroups2 t) ; use native API in lightweight mode
   (require-init 'init-term-mode t)
   (require-init 'init-web-mode t)
   (require-init 'init-company t)
-  (require-init 'init-chinese t) ;; cannot be idle-required
+  ;; (require-init 'init-chinese t) ;; cannot be idle-required
   ;; need statistics of keyfreq asap
   (require-init 'init-keyfreq t)
   (require-init 'init-httpd t)
@@ -148,7 +148,7 @@
   (require-init 'init-writting t)
   (require-init 'init-hydra) ; hotkey is required everywhere
   ;; use evil mode (vi key binding)
-  (require-init 'init-evil) ; init-evil dependent on init-clipboard
+  ;; (require-init 'init-evil) ; init-evil dependent on init-clipboard
 
   ;; ediff configuration should be last so it can override
   ;; the key bindings in previous configuration
