@@ -2,4 +2,4 @@
 ;; add all tweaks to that file as it is loaded in the end
 
 (load-theme 'lush t)
-(neotree-show)
+;;(neotree-show)
