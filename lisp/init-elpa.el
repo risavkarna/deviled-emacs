@@ -13,6 +13,9 @@
 ;; if it's not visible after  `list-packages'.
 (defvar melpa-include-packages
   '(ace-window ; lastest stable is released on year 2014
+    lsp-mode
+    lsp-ui
+    lsp-haskell
     auto-package-update
     nov
     bbdb
@@ -24,7 +27,6 @@
     command-log-mode
     lsp-mode ; stable version has performance issue
     edit-server ; use Emacs to edit textarea in browser, need browser addon
-    vimrc-mode
     rjsx-mode ; fixed the indent issue in jsx
     auto-yasnippet
     typescript-mode ; the stable version lacks important feature (highlight function names)
@@ -119,9 +121,9 @@
       '(("localelpa" . "~/.emacs.d/localelpa/")
         ;; uncomment below line if you need use GNU ELPA
         ("gnu" . "https://elpa.gnu.org/packages/")
-        ("melpa" . "https://melpa.org/packages/")
         ("melpa-stable" . "https://stable.melpa.org/packages/")
-
+        ("melpa" . "https://melpa.org/packages/")
+        
         ;; Use either 163 or tsinghua mirror repository when official melpa
         ;; is slow or shutdown.
 
