@@ -94,9 +94,9 @@ Please remove =~/.emacs.d/init.el= and =~/.emacs=. =~= means [[https://en.wikipe
 
 There are two ways to install this setup (I recommend the first way):
 
-First way is to download [[https://github.com/redguardtoo/emacs.d/archive/master.zip][latest setup]] and extract its content into =~/.emacs.d=, OR run command =cd ~; git clone https://github.com/redguardtoo/emacs.d.git .emacs.d= in shell.
+First way is to download [[https://github.com/redguardtoo/emacs.d/archive/master.zip][latest setup]] and extract its content into =~/.emacs.d=, OR run command =cd ~; git clone https://github.com/risavkarna/deviled-emacs.git .emacs.d= in shell.
 
-Second way is to use [[https://github.com/redguardtoo/emacs.d/archive/stable.zip][stable setup]], OR run command =cd ~; git clone https://github.com/redguardtoo/emacs.d.git .emacs.d; cd .emacs.d; git reset --hard stable= in shell.
+Second way is to use [[https://github.com/redguardtoo/emacs.d/archive/stable.zip][stable setup]], OR run command =cd ~; git clone https://github.com/risavkarna/deviled-emacs.git .emacs.d; cd .emacs.d; git reset --hard stable= in shell.
 
 Ensure that =init.el= contained in this repo ends up at =~/.emacs.d/init.el=.
 
